@@ -67,7 +67,7 @@ public class PLMArrays {
             array[maxPosition] = tmpValue;
 
             i++;
-            j++;
+            j--;
         }
     }
 
