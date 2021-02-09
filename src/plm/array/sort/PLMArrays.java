@@ -6,7 +6,8 @@ public class PLMArrays {
     }
 
     /**
-     * The bubble sort algorithm repeatedly steps through the array, compares adjacent elements and swaps them if they are in the wrong order.</br>
+     * The bubble sort algorithm repeatedly steps through the array, compares adjacent elements and
+     * swaps them if they are in the wrong order.</br>
      * The pass through the array is repeated until the array is sorted.
      * 
      * @param array The array to be sorted.
@@ -29,7 +30,8 @@ public class PLMArrays {
     }
 
     /**
-     * The selection sort algorithm sorts an array by repeatedly finding the minimum element from unsorted part and putting it at the beginning.
+     * The selection sort algorithm sorts an array by repeatedly finding the minimum element from
+     * unsorted part and putting it at the beginning.
      * 
      * @param array The array to be sorted.
      */
@@ -46,8 +48,8 @@ public class PLMArrays {
     }
 
     /**
-     * The min-max sort algorithm sorts an array by repeatedly finding the minimum and maximum elements from unsorted part and putting them respectively at the
-     * beginning and the end.
+     * The min-max sort algorithm sorts an array by repeatedly finding the minimum and maximum elements
+     * from unsorted part and putting them respectively at the beginning and the end.
      * 
      * @param array The array to be sorted.
      */
@@ -77,6 +79,7 @@ public class PLMArrays {
      * 
      * @param array The array to be sorted.
      * @param head  The beginning of the unsorted part.
+     * 
      * @return The position of the minimum.
      */
     private static int checkMinPosition(int[] array, int head) {
@@ -93,11 +96,13 @@ public class PLMArrays {
 
     /**
      * This function is used into the selection and min-max sort algorithms to find the maximum.</br>
-     * The maximum has to be find because the head and the tail's positions are respectively increasing and decreasing.
+     * The maximum has to be find because the head and the tail's positions are respectively increasing
+     * and decreasing.
      * 
      * @param array The array to be sorted.
      * @param head  The beginning of the unsorted part.
      * @param tail  The end of the unsorted part.
+     * 
      * @return The position of the minimum.
      */
     private static int checkMaxPosition(int[] array, int head, int tail) {

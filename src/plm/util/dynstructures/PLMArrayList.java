@@ -56,7 +56,9 @@ public class PLMArrayList<E> {
      * Get the element at the specified position.
      * 
      * @param index The desired position.
+     * 
      * @return The element at the specified position.
+     * 
      * @throws IndexOutOfBoundsException If the index is out of range.
      */
     public Object get(int index) {
@@ -71,6 +73,7 @@ public class PLMArrayList<E> {
      * Remove the element at the specified position.
      * 
      * @param index The desired position.
+     * 
      * @throws IndexOutOfBoundsException If the index is out of range.
      */
     public void remove(int index) {

@@ -165,14 +165,13 @@ public class PLMLinkedList<E> {
      * Find an element in the list.
      * 
      * @param element The element to find.
+     * 
      * @return true if this list contains the desired element, otherwise false.
      */
     public boolean contains(E element) {
         positionOnHead();
         while (!isEmpty()) {
-            if (cursor.getElement().equals(element)) {
-                return true;
-            }
+            if (cursor.getElement().equals(element)) { return true; }
             positionOnNext();
         }
         return false;
@@ -182,6 +181,7 @@ public class PLMLinkedList<E> {
      * Find all the elements who match with the parameter.
      * 
      * @param element The element to find.
+     * 
      * @return An integer value who represents the founded elements.
      */
     public int containsAll(E element) {
@@ -201,6 +201,7 @@ public class PLMLinkedList<E> {
      * Get the element at the specified position.
      * 
      * @param index The desired position.
+     * 
      * @return The element at the specified position, otherwise null.
      */
     public E get(int index) {
