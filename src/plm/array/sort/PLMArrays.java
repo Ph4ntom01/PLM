@@ -2,8 +2,7 @@ package plm.array.sort;
 
 public class PLMArrays {
 
-    private PLMArrays() {
-    }
+    private PLMArrays() {}
 
     /**
      * The bubble sort algorithm repeatedly steps through the array, compares adjacent elements and
